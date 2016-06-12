@@ -1,5 +1,6 @@
-tweets:
+hello-docker:
   build: .
-  command: echo 'container created'
+  ports:
+    - '3000:3000'
   volumes:
-    - .:/home/app/tweets
+    - .:/home/app/hello-docker
