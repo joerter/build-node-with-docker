@@ -1,0 +1,5 @@
+tweets:
+  build: .
+  command: echo 'container created'
+  volumes:
+    - .:/home/app/tweets
