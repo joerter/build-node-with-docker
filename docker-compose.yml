@@ -4,3 +4,4 @@ hello-docker:
     - '3000:3000'
   volumes:
     - .:/home/app/hello-docker
+    - /home/app/hello-docker/node_modules
