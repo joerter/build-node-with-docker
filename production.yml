@@ -1,7 +1,6 @@
 hello-docker:
   environment:
     NODE_ENV: 'production'
-    PORT: 80
   build: .
   ports:
-    - '80:80'
+    - '3000:3000'
